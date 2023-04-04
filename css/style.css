@@ -17,6 +17,10 @@
     height: 100%;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -119,13 +123,6 @@ h2{
     font-size: 4rem;
 }
 
-h3{
-    font-size: 2rem;
-    text-align: center;
-    background-image: url(../img/stars.svg);
-    background-size: contain;
-}
-
 .description-text{
     text-align: left;
     font-size: 1.5rem;
@@ -192,9 +189,35 @@ main section.background-gray div.big-column button{
     margin: 25px 540px;
 }
 
+main section.background-gray div.big-column h3{
+    font-size: 2rem;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
 footer{
     background-color: #23272a;
     padding-top: 1rem;
+}
+
+footer section.container div.main-column h3{
+    font-size: 2rem;
+    text-align: left;
+}
+
+footer section.container div.main-column img{
+    width: 30px;
+    margin-top: 1rem;
+}
+
+.blue-text{
+    color: #728adc;
+}
+
+.white-text{
+    color: white;
+    margin-top: 1rem;
 }
 
 footer section.footer-top{
@@ -202,7 +225,6 @@ footer section.footer-top{
 }
 
 footer div.main-column{
-    background-color: #ef7f7f;
     width: 30%;
 }
 
@@ -211,15 +233,22 @@ footer div.footer-columns{
 }
 
 footer div.secondary-column{
-    background-color: #20b1a9;
     width: calc(100% / 4);
 }
 
+footer div.button-wrapper button{
+    background-color: #728adc;
+    color: white;
+}
+
 footer section.footer-bottom{
-    background-color: #7ffed3;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
+}
+
+footer section.footer-bottom{
+    border-top: solid 2px #728adc;
 }
 
 hr{
